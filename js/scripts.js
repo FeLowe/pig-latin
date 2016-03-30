@@ -9,7 +9,7 @@ $(document).ready(function(){
 debugger
     for(index1 = 0; index1 <userInput.length; index1++){
       for(index2 = 0; index2 <vowels.length; index2++){
-        if(userInput[0]===vowels[index2]) {
+        if(userInput[index1]===vowels[index2]) {
           emptyArray.push(userInput + "ay");
 
 
